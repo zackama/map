@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'dart:async';
-
+import 'api_service.dart';
 
 
 class DataList extends StatelessWidget {
+  final ApiService apiService = ApiService();
   Future<List<dynamic>?>? getUsers() async {
     var addr = Uri.parse("https://api.npoint.io/b181a1cad095f3ac8132");
     var res = await http.get(addr);

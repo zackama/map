@@ -39,6 +39,7 @@ dependencies:
   latlong2: ^0.9.1
   flutter_map: ^7.0.2
   flutter_map_marker_cluster_2: ^1.0.4
+  api_service_interceptor: ^3.0.0
 
 dev_dependencies:
   flutter_test:

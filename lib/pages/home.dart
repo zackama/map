@@ -1,6 +1,7 @@
 import 'package:map/pages/list.dart';
 import 'package:map/pages/map.dart';
 import 'package:flutter/material.dart';
+import 'package:map/pages/testmap.dart';
 
 
 
